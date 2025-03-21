@@ -135,10 +135,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
-    gap: 20px; 
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
-    background-color: #214639b5;
+    background-color: #113534;
 }
 
 #inner-project {
