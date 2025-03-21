@@ -458,7 +458,9 @@ body{
     background-color: #FF0000;
 }
 
-
+.footer-copyright p{
+    color:white;
+}
 
 
 
@@ -656,6 +658,12 @@ body{
   .footer-5-column {
     padding-top: 3rem;
     margin-top: 2rem;
+    background-color: #e5e5e5cf;
+    
+    
+    
+    
+    
     p {
         color: #777777;
     }

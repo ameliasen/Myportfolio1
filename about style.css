@@ -474,6 +474,7 @@ body{
 .footer-5-column {
     padding-top: 3rem;
     margin-top: 2rem;
+    background-color:#e5e5e5cf;
   }
   .footer-5-column p {
     color: #777777;
@@ -996,6 +997,9 @@ body {
         padding: 1px;
         width: 100%;
     }
+
+
+
 }
 
 @media(max-width:425px){
@@ -1087,7 +1091,6 @@ font-size: 47px;
 .youtube.active {
     background-color: #FF0000;
 }
-
 
 
 
