@@ -138,7 +138,7 @@ body{
     flex-direction: column; 
     gap: 20px; 
     padding: 20px;
-    background-color: #214639b5;
+    background-color: #113534;
 }
 
 #inner-project {
@@ -660,7 +660,7 @@ body{
     padding-top: 3rem;
     margin-top: 2rem;
     p {
-        color: #777777;
+        color: rgb(219, 215, 215);
     }
     .footer-container {
         max-width: 1320px;
@@ -692,6 +692,7 @@ body{
                     svg {
                         width: 100%;
                         height: auto;
+                        color: white;
                     }
                 }
                 .footer-content {
@@ -735,31 +736,44 @@ body{
             flex: 0 0 auto;
         }
         .footer-navbar-col {
+            color: #eee;
+            
+            
             h5 {
                 margin-bottom: 1.5rem;
                 color: #000;
+                font-size: 20px;
                 overflow-wrap: break-word;
                 padding: 0 0.5rem 0 0;
             }
             ul {
                 padding: 0 0.5rem 0 0;
                 margin: 0;
-                li {
+                color: #0e3832;
+                
+                
+                
+                
+            li {
                     list-style: none;
-                    &:not(:last-child) {
+                    &:not(:
+            last-child) {
                         margin-bottom: 1rem;
                     }
-                    a {
+            a {
                         font-size: 16px;
-                        text-decoration: none;
-                        color: #777777;
-                        overflow-wrap: break-word;
-                        &:hover {
+            text-decoration: none;
+            color: #777777;
+            overflow-wrap: break-word;
+                        &:
+            hover {
                             color: #000;
                         }
                     }
                 }
             }
+        ;
+            color: w;
         }
     }
     .footer-copyright {
@@ -774,6 +788,7 @@ body{
 
 @media all and (max-width: 1140px) {
     .footer-5-column {
+        background-color:#33333394;
         .footer-container {
             .footer-navbar-container {
                 row-gap: 3rem;
