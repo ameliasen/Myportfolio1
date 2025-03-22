@@ -100,7 +100,9 @@ h1 {
     height: 100%;
     object-fit: cover;
 }
-
+.footer-5-column {
+    background-color: #33333394;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
   
@@ -506,6 +508,7 @@ textarea {
     margin-top: 2rem;
     p {
         color: #777777;
+        color: white;
     }
     .footer-container {
         max-width: 1320px;
@@ -537,6 +540,7 @@ textarea {
                     svg {
                         width: 100%;
                         height: auto;
+                        color:white;
                     }
                 }
                 .footer-content {
@@ -559,7 +563,7 @@ textarea {
                             margin-right: 14px;
                             a {
                                 width: 30px;
-                                color: #777777;
+                                color: #ddd;
                                 padding: 6px;
                             }
                         }
@@ -583,6 +587,7 @@ textarea {
             h5 {
                 margin-bottom: 1.5rem;
                 color: #000;
+                font-size: 20px;
                 overflow-wrap: break-word;
                 padding: 0 0.5rem 0 0;
             }
@@ -621,20 +626,22 @@ textarea {
     .footer-5-column {
         .footer-container {
             .footer-navbar-container {
-                row-gap: 3rem;
+        row-gap: 3rem;
                 .footer-company-details {
-                    padding: 0;
-                    width: 100%;
+        padding: 0;
+        width: 100%;
                 }
                 .footer-navbar {
-                    padding: 0;
-                    width: 100%;
+        padding: 0;
+        width: 100%;
                 }
             }
         }
         .footer-navbar {
-            row-gap: 3rem;
+        row-gap: 3rem;
         }
+    ;
+        background-color: #33333394;
     } 
 }
 @media all and (max-width: 992px) {
@@ -720,3 +727,59 @@ textarea {
 
 
 
+
+.fa-youtube:before {
+    content: "\f167";
+    color: white;
+    font-size:24px;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    color: white;
+    font-size:24px;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+    color:white;
+    font-size:24px;
+}
+
+
+.fa-twitter:before {
+    content: "\f099";
+    color:white;
+    font-size:24px;
+}
+
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    color:white;
+    font-size:24px;
+}
+
+
+
+
+.footer-5-column{
+    background-color: #33333394;
+}
+
+
+
+.icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px #85ecb5;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    color: black;
+}

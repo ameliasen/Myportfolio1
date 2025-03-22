@@ -226,7 +226,7 @@ body{
     flex-direction: column; 
     gap: 20px; 
     padding: 20px;
-    background-color: #113534;
+    background-color: #214639b5;
 }
 
 #inner-project {
@@ -405,7 +405,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    box-shadow: 0 4px 6px #054b26;
+    box-shadow: 0 4px 6px #85ecb5;
     cursor: pointer;
     transition: background 0.3s;
     text-decoration: none;
@@ -657,7 +657,7 @@ body{
     padding-top: 3rem;
     margin-top: 2rem;
     p {
-        color: #777777;
+        color: #eee;
     }
     .footer-container {
         max-width: 1320px;
@@ -689,6 +689,7 @@ body{
                     svg {
                         width: 100%;
                         height: auto;
+                        color: white;
                     }
                 }
                 .footer-content {
@@ -711,6 +712,7 @@ body{
                             margin-right: 14px;
                             a {
                                 width: 30px;
+                                color:#ddd;
                                 padding: 6px;
                             }
                         }
@@ -736,6 +738,7 @@ body{
                 color: #000;
                 overflow-wrap: break-word;
                 padding: 0 0.5rem 0 0;
+                font-size:20px;
             }
             ul {
                 padding: 0 0.5rem 0 0;
@@ -818,4 +821,44 @@ body{
     padding:0px 0px;
 }
         
+}
+
+.fa-youtube:before {
+    content: "\f167";
+    color: white;
+    font-size:24px;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    color: white;
+    font-size:24px;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+    color:white;
+    font-size:24px;
+}
+
+
+.fa-twitter:before {
+    content: "\f099";
+    color:white;
+    font-size:24px;
+}
+
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    color:white;
+}
+
+
+
+
+
+
+.footer-5-column{
+    background-color: #33333394;
 }

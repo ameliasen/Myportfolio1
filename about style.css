@@ -660,7 +660,8 @@ body{
     padding-top: 3rem;
     margin-top: 2rem;
     p {
-        color: rgb(219, 215, 215);
+        color: #777777;
+        color: #ddd;
     }
     .footer-container {
         max-width: 1320px;
@@ -736,44 +737,32 @@ body{
             flex: 0 0 auto;
         }
         .footer-navbar-col {
-            color: #eee;
-            
-            
             h5 {
                 margin-bottom: 1.5rem;
                 color: #000;
-                font-size: 20px;
                 overflow-wrap: break-word;
                 padding: 0 0.5rem 0 0;
+                font-size:20px;
             }
             ul {
                 padding: 0 0.5rem 0 0;
                 margin: 0;
-                color: #0e3832;
-                
-                
-                
-                
-            li {
+                li {
                     list-style: none;
-                    &:not(:
-            last-child) {
+                    &:not(:last-child) {
                         margin-bottom: 1rem;
                     }
-            a {
+                    a {
                         font-size: 16px;
-            text-decoration: none;
-            color: #777777;
-            overflow-wrap: break-word;
-                        &:
-            hover {
+                        text-decoration: none;
+                        color: #ddd;
+                        overflow-wrap: break-word;
+                        &:hover {
                             color: #000;
                         }
                     }
                 }
             }
-        ;
-            color: w;
         }
     }
     .footer-copyright {
@@ -1042,7 +1031,7 @@ font-size: 47px;
     gap: 20px;
 }
 
-.icon {
+.icons {
     position: relative;
     display: inline-flex;
     align-items: center;
@@ -1051,6 +1040,21 @@ font-size: 47px;
     height: 56px;
     border-radius: 50%;
     box-shadow: 0 4px 6px #054b26;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px #85ecb5;
     cursor: pointer;
     transition: background 0.3s;
     text-decoration: none;
@@ -1104,5 +1108,42 @@ font-size: 47px;
 }
 
 
+.fa-youtube:before {
+    content: "\f167";
+    color: white;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    color: white;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+    color:white;
+}
 
 
+.fa-twitter:before {
+    content: "\f099";
+    color:white;
+}
+
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    color:white;
+}
+
+.icon-youtube{
+    background-color:#01452b;
+}
+
+
+
+
+
+
+.footer-5-column{
+    background-color: #33333394;
+}
