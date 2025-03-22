@@ -722,4 +722,10 @@ textarea {
 
 
 
-
+@media(max-width:320px){
+    .contact-info p {
+        margin: 11px 50px;
+        font-size: 15px;
+        color: white;
+    }
+}
