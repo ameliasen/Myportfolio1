@@ -1558,6 +1558,18 @@ padding: 22px;
 
 }
 @media (max-width: 768px){
+     
+#main-sec-div {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 6px;
+    gap: 00px;
+    height: 600px;
+    background-color: #efb3a1;
+}
    
     .search-bar {
         display: flex;
@@ -1679,10 +1691,18 @@ padding: 22px;
       display: flex;
     }
     
-    #main-sec-div {
-        width: 100%;
-        padding: 24px;
-    }
+   
+#main-sec-div {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 6px;
+    gap: 00px;
+    height: 600px;
+    background-color: #efb3a1;
+}
     .menu-toggle {
       font-size: 1.2rem;
     }

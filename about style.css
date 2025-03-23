@@ -311,14 +311,14 @@ body{
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        background-color:#01452b;
+        background-color: #0e3832;
     }
     .card-container {
         display: flex;
         flex-direction: column;
         gap: 20px;
         max-width: 50%;
-        background-color:#01452b;
+        background-color: #0e3832;
     }
     .card {
         background: #f4f4f4;
@@ -329,7 +329,7 @@ body{
     .card-number {
         font-size: 24px;
         font-weight: bold;
-        color: #333;
+        color: #eee;
     }
     .image-container {
         max-width: 40%;
@@ -1044,6 +1044,7 @@ font-size: 47px;
     transition: background 0.3s;
     text-decoration: none;
     color: black;
+    font-size:40px;
 }
 
 .icon {
