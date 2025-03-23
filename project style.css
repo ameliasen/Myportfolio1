@@ -226,17 +226,17 @@ body{
     flex-direction: column; 
     gap: 20px; 
     padding: 20px;
-    background-color: #214639b5;
+    background-color: #113534;
 }
 
 #inner-project {
-    max-width: 900px; 
+    max-width: 900px;
     width: 100%;
     background-color: #0e3832;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
-    padding: 20px;
+    padding: 100px;
 }
 
 .content {
@@ -734,7 +734,7 @@ body{
         .footer-navbar-col {
             h5 {
                 margin-bottom: 1.5rem;
-                color: #000;
+                color: #ddd;
                 overflow-wrap: break-word;
                 padding: 0 0.5rem 0 0;
                 font-size:20px;
@@ -750,7 +750,7 @@ body{
                     a {
                         font-size: 16px;
                         text-decoration: none;
-                        color: #777777;
+                        color: #ddd;
                         overflow-wrap: break-word;
                         &:hover {
                             color: #000;

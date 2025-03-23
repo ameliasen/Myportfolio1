@@ -204,7 +204,7 @@ display: flex;
     
 align-items: center; /* Align items vertically */
     
-justify-content: space-between; /* Space between the elements */
+justify-content: center; /* Space between the elements */
     /* Space between text and image */
 }
 
@@ -526,18 +526,17 @@ color:whitesmoke;
 
 
 
-
-#main-sec-div{
-    display: flex;
+#main-sec-div {
+    display: flex
+;
     align-items: center;
-    justify-content: space-between;
-    width:100%;
+    justify-content: center;
+    width: 100%;
     padding: 6px;
-    height:600px;
-    background-color:#efb3a1;
+    gap: 500px;
+    height: 600px;
+    background-color: #efb3a1;
 }
-
-
 #sec-div h5{
     font-size:20px;
     align-items:center;
@@ -1017,7 +1016,7 @@ color:whitesmoke;
     padding-top: 3rem;
     margin-top: 2rem;
     p {
-        color: #777777;
+        color: #ddd;
     }
     .footer-container {
         max-width: 1320px;
@@ -1052,6 +1051,7 @@ color:whitesmoke;
                     svg {
                         width: 100%;
                         height: auto;
+                        color:white;
                     }
                 }
                 .footer-content {
@@ -1097,7 +1097,8 @@ color:whitesmoke;
         .footer-navbar-col {
             h5 {
                 margin-bottom: 1.5rem;
-                color: #000;
+                color: #ddd;
+                font-size:22px;
                 overflow-wrap: break-word;
                 padding: 0 0.5rem 0 0;
             }
@@ -1112,7 +1113,7 @@ color:whitesmoke;
                     a {
                         font-size: 16px;
                         text-decoration: none;
-                        color: #777777;
+                        color: #ddd;
                         overflow-wrap: break-word;
                         &:hover {
                             color: #000;
@@ -1170,14 +1171,13 @@ color:whitesmoke;
 }
 .icon {
     position: relative;
-    display: inline-flex
-;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 49px;
     height: 48px;
     border-radius: 50%;
-    box-shadow: 0 4px 6px #054b26;
+    box-shadow: 0 4px 6px #81edb4;
     cursor: pointer;
     transition: background 0.3s;
     text-decoration: none;
@@ -1208,26 +1208,36 @@ color:whitesmoke;
 .facebook:hover,
 .facebook.active {
     background-color: #3b5998;
+    color:white;
+    font-size:24px;
 }
 
 .twitter:hover,
 .twitter.active {
     background-color: #1DA1F2;
+    color:white;
+    font-size:24px;
 }
 
 .instagram:hover,
 .instagram.active {
     background-color: #E1306C;
+    color:white;
+    font-size:24px;
 }
 
 .github:hover,
 .github.active {
     background-color: #333;
+    color:white;
+    font-size:24px;
 }
 
 .youtube:hover,
 .youtube.active {
     background-color: #FF0000;
+    color:white;
+    font-size:24px;
 }
 
 
@@ -2104,10 +2114,39 @@ font-size: 2rem;
     #sec-h1 {
         margin-left: 31px;
     }
+   
+}
+
+.fa-youtube:before {
+    content: "\f167";
+    color: white;
+    font-size:24px;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    color: white;
+    font-size:24px;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+    color:white;
+    font-size:24px;
 }
 
 
+.fa-twitter:before {
+    content: "\f099";
+    color:white;
+    font-size:24px;
+}
 
 
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    color:white;
+    font-size:24px;
+}
 
 
