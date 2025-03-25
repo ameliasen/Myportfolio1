@@ -719,10 +719,10 @@ color:whitesmoke;
 .work-container {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    width: 90%;
-    margin-left: 40px;
+    width: 100%;
+    margin-left: 0px;
 }
 
 /* Work Items */
@@ -741,6 +741,7 @@ color:whitesmoke;
 .work-item p {
     font-size: 0.9em;
     line-height: 1.5;
+    width: 97%;
 }
 
 /* Circles */
@@ -2134,7 +2135,7 @@ font-size: 2rem;
     #sec-h1 {
         margin-left: 31px;
     }
-   
+    
 }
 
 .fa-youtube:before {
