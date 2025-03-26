@@ -143,12 +143,12 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 .container {
-    display: flex;
+    display: grid ;
     flex-wrap: wrap;
     gap: 30px;
     padding: 99px 157px;
+    justify-content: center;
 }
 
 .left-section,
@@ -170,10 +170,8 @@ body {
 
 .right-section {
     
-padding: 20px;
-    
-border-radius: 10px;
-    
+padding: 20px;   
+border-radius: 10px;  
 background-color: #eee;
 
 }
@@ -784,3 +782,6 @@ textarea {
     text-decoration: none;
     color: black;
 }
+
+
+

@@ -295,6 +295,7 @@ color:whitesmoke;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 10px;
+    place-items:center;
 }
 
 .contact-title {
@@ -2135,6 +2136,7 @@ font-size: 2rem;
     #sec-h1 {
         margin-left: 31px;
     }
+    
     
 }
 
