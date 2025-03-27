@@ -632,7 +632,7 @@ color:whitesmoke;
     color: #efb3a1;
     border-radius: 10px;
     padding: 20px;
-    margin-right:900px;
+    
   }
 
 
@@ -2044,9 +2044,9 @@ padding: 12px;
         border-radius: 10px;
         padding: 20px;
         margin-left: 117px;
-        width: 34%;
+        width: 23%;
         margin-bottom: 38px;
-        margin-right: 551px;
+        margin-right: 146px;
     }
     #sec-div {
         flex-direction: column;
