@@ -144,9 +144,8 @@ body {
     font-family: Arial, sans-serif;
 }
 .container {
-    display: grid ;
+    display: grid;
     flex-wrap: wrap;
-    gap: 30px;
     padding: 99px 157px;
     justify-content: center;
 }
@@ -154,26 +153,35 @@ body {
 .left-section,
 .right-section {
     flex: 1 1 300px;
-    background-color: #075e52f7;
     border-radius: 20px;
 }
 
 .left-section h1 {
     font-size: 3rem;
+    background-color: #004e43cf;
+    padding: 47px;
+    border-radius: 38px;
 }
 
 .contact-info p {
     margin: 11px 50px;
     font-size: 19px;
-    color: white;
+    color: rgb(219 215 215 / 76%);
 }
 
 .right-section {
     
-padding: 20px;   
-border-radius: 10px;  
+padding: 20px;
+    
+border-radius: 10px;
+    
 background-color: #eee;
-
+    
+width: 50%;
+    
+margin-left: 212px;
+    
+margin-top: 26px;
 }
 
 .interest-buttons {
@@ -274,16 +282,16 @@ textarea {
         font-size: 2.5rem;
     }
     .right-section {
-        padding: 20px;
+        padding: 41px;
         border-radius: 10px;
-        background-color: #bdc3c7f0;
-        width: 91%;
+        background-color: #eee;
+        width: 63%;
+        margin-left: 88px;
     }
     .left-section{
         flex: 1 1 300px;
-        background-color: #004e438f;
         border-radius: 20px;
-        width: 102%;
+        width: 99%;
     }
 }
 
@@ -668,9 +676,9 @@ textarea {
     align-items: center;
     justify-content: center;
     width: 60px;
-    height: 60px;
+    height: 73px;
     border-radius: 50%;
-    box-shadow: 0 4px 6px #054b26;
+    box-shadow: 0 4px 6px #85ecb5;
     cursor: pointer;
     transition: background 0.3s;
     text-decoration: none;
@@ -694,7 +702,6 @@ textarea {
 
 .icon:hover i,
 .icon.active i {
-    color: #fff;
 }
 
 /* Colors for each social icon */
@@ -764,6 +771,7 @@ textarea {
 
 .footer-5-column{
     background-color: #33333394;
+    margin-top: 17%;
 }
 
 
@@ -773,15 +781,151 @@ textarea {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    box-shadow: 0 4px 6px #85ecb5;
     cursor: pointer;
     transition: background 0.3s;
     text-decoration: none;
-    color: black;
+    width: 40%;
+}
+
+.icons{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    width: 52%;
+    border-radius: 50%;
 }
 
 
 
+.content{
+
+}
+
+
+#navbar-container{
+
+}
+
+.left-section{
+    
+}
+
+
+
+
+
+
+
+
+
+.contact-container {
+    text-align: center;
+    color: white;
+    padding: 15px 35px;
+    margin-top: -9px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    place-items: center;
+}
+
+.contact-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.contact-item i {
+    font-size: 50px;
+    color: #85ecb5;
+    margin-bottom: 10px;
+}
+
+
+.contact-head{
+
+font-size: 39px;
+
+margin-top: 48px;
+
+background-color: #004e43cf;
+
+padding: 20px;
+
+border-radius: 133px;
+}
+
+
+
+
+.contact-address{
+    
+font-size: 29px;
+}
+
+
+.contact-phone{
+    
+font-size: 30px;
+}
+
+
+.contact-email{
+    
+font-size: 31px;
+}
+
+
+
+.icon i {
+    font-size: 34px;
+    color: #80e7b0a8;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.phone:hover {
+    background-color: #046f3b;
+}
+
+.address:hover {
+    background-color: #014267f7;
+}
+
+.email:hover {
+    background-color: #c46908fb;
+    font-size:20px;
+}
+
+.icon:hover i {
+    color: white;
+}
+
+
+@media(max-width:468px){
+    .right-section{
+        margin-left:27px;
+    }
+
+    .contact-info{
+margin-top:57px;
+    }
+}
+
+
+
+@media(max-width:320px){
+    .right-section{
+        margin-left:14px;
+    }
+}
